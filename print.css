@@ -1,0 +1,15 @@
+body	{
+background: #FFF; 
+color: #000; 
+font: 12pt serif;
+}
+a:link, a:visited {
+color: #333; t
+ext-decoration: underline;
+}
+a[href]:after {
+content: " (" attr(href) ")";
+}
+#texto	{width: 100%; 
+margin: auto;
+}
